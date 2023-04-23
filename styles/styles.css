@@ -5,6 +5,16 @@
     list-style: none;
 }
 
+/* scrollbar vanish */
+::-webkit-scrollbar {
+    width: 8px;
+}
+/*Custom ScrollBar*/
+::-webkit-scrollbar-thumb {
+    background: crimson;
+    border-radius: 7px;
+}
+
 :root {
     --color-primary: #191d2b;
     --color-crimson: #DC143C;
