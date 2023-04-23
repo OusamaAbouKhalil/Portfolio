@@ -926,7 +926,8 @@ section {
     }
 
     .left-header .image #avatar{
-    display: none;
+    width: 90% !important;
+    margin: 0 auto !important;
     }
 
     .right-header {
